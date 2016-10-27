@@ -83,3 +83,7 @@ gem 'rails-i18n', '~> 5.0'
 gem 'paranoia', '~> 2.2'
 gem 'whenever', '~> 0.9.7'
 gem 'slim-rails', '~> 3.1'
+group :development do
+  gem 'guard-livereload', '~> 2.5'
+  gem 'rack-livereload', '~> 0.3.16'
+end
