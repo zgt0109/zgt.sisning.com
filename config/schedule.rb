@@ -20,3 +20,7 @@ set :output, "#{path}/log/cron_log.log"
 # end
 
 # Learn more: http://github.com/javan/whenever
+
+every 1.minute do
+	runner "Book.zgt"
+end

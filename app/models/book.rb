@@ -11,4 +11,7 @@
 #
 
 class Book < ApplicationRecord
+  def self.zgt
+    puts "定时任务：#{Time.now}"
+  end
 end
