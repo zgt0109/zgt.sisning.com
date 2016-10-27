@@ -51,3 +51,21 @@ group :development do
   gem 'capistrano-rails', '~> 1.1'
   gem 'capistrano3-puma', '~> 1.2'
 end
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+  gem 'factory_girl_rails', '~> 4.7'
+  gem 'timecop', '~> 0.8.1'
+end
+
+group :development do
+  gem 'guard-rspec', '~> 4.7'
+  gem 'spring-commands-rspec', '~> 1.0'
+  gem 'fuubar', '~> 2.2'
+end
+
+group :test do
+  gem 'database_cleaner', '~> 1.5'
+  gem 'shoulda-matchers', '~> 3.1'
+  gem 'faker', '~> 1.6'
+end
