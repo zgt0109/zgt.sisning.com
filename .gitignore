@@ -15,3 +15,7 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# load environment variables
+.env*
+!.env.example

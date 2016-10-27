@@ -69,3 +69,12 @@ group :test do
   gem 'shoulda-matchers', '~> 3.1'
   gem 'faker', '~> 1.6'
 end
+
+group :development do
+  gem 'foreman', '~> 0.82.0'
+  gem 'annotate', '~> 2.7'
+  gem 'seedbank', '~> 0.4.0'
+  gem 'pry-rails', '~> 0.3.4'
+  gem 'pry-remote', '~> 0.1.8'
+  gem 'dotenv-rails', '~> 2.1'
+end
