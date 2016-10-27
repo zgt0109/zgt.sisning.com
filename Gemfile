@@ -78,3 +78,5 @@ group :development do
   gem 'pry-remote', '~> 0.1.8'
   gem 'dotenv-rails', '~> 2.1'
 end
+
+gem 'rails-i18n', '~> 5.0'
