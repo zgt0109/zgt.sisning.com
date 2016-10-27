@@ -87,3 +87,5 @@ group :development do
   gem 'guard-livereload', '~> 2.5'
   gem 'rack-livereload', '~> 0.3.16'
 end
+
+gem 'semantic-ui-sass', '~> 2.2'
