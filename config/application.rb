@@ -8,6 +8,9 @@ Bundler.require(*Rails.groups)
 
 module ZgtSisningCom
   class Application < Rails::Application
+    Slim::Engine.options[:pretty] = true
+    config.generators.helper = false
+    config.generators.assets = false
     # Setting for Rspec
     config.generators do |g|
       g.test_framework :rspec,
