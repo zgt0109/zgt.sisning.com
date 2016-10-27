@@ -80,3 +80,4 @@ group :development do
 end
 
 gem 'rails-i18n', '~> 5.0'
+gem 'paranoia', '~> 2.2'
